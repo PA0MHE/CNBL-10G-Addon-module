@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CBNL_10GHz_TRV-rescue)(type Legacy)(uri ${KIPRJMOD}/CBNL_10GHz_TRV-rescue.lib)(options "")(descr ""))
+)

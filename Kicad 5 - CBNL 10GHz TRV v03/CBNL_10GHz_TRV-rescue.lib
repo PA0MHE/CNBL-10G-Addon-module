@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MiniBuck-Maarten_Kicad5
+#
+DEF MiniBuck-Maarten_Kicad5 U 0 40 Y Y 1 F N
+F0 "U" 250 -100 50 H V C CNN
+F1 "MiniBuck-Maarten_Kicad5" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -150 200 100 0 1 0 f
+X En 1 -300 -50 100 R 50 50 1 1 P
+X In 2 -300 50 100 R 50 50 1 1 W
+X ~ 3 0 -250 100 U 50 50 1 1 w
+X Out 4 300 50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# SBB3089Z-Maarten_Kicad5
+#
+DEF SBB3089Z-Maarten_Kicad5 U 0 10 Y Y 2 F N
+F0 "U" 0 150 50 H V L CNN
+F1 "SBB3089Z-Maarten_Kicad5" 0 -150 50 H V L CNN
+F2 "" -100 50 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+$FPLIST
+ SOT89
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X IN 1 -300 0 100 R 50 50 1 1 P
+X GND 2 0 -250 150 U 50 50 1 1 W
+X OUt 3 300 0 100 L 50 50 1 1 P
+X GND 4 0 -250 150 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
